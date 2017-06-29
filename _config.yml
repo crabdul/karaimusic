@@ -18,11 +18,11 @@ description:      'A brazen two-column <a href="http://jekyllrb.com" target="_bl
 url:              http://karaimusic.com
 baseurl:          ''
 
-author:           crabs
-  name:           'Karim EK'
+author:
+  name:           'crabs'
   url:            
 
-paginate:         10
+paginate:         5
 
 # Custom vars
 version:          2.1.0
