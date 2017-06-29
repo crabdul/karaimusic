@@ -1,0 +1,13 @@
+# This file contains meta data for various social media sites
+---
+  email:
+    name: Email
+    icon: icon-envelop
+  facebook:
+    name: Facebook
+    icon: icon-facebook
+    prepend: 'https://facebook.com/'
+  spotify:
+    name: Spotify
+    icon: icon-spotify
+    prepend: "https://play.spotify.com/"
