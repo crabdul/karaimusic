@@ -75,6 +75,18 @@ html {
   color: #fff;
 }
 
+/* Logo */
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Title */
+.title {
+    display: flex;
+    justify-content: center;
+}
+
 /* About section */
 .sidebar-about h1 {
   color: #fff;
@@ -99,8 +111,10 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 .copyright {
-    padding-top: 200px;
-    font-size: 0.7rem;
+        position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size: 0.5rem;
 }
 
 /* Sticky sidebar
@@ -111,10 +125,13 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    position: absolute;
+    position: relative;
+      top: 25%;
     right:  1rem;
     bottom: 1rem;
-    left:   1rem;
+    left:   0.3rem;
+      text-align: center;
+      margin: 0 auto;
   }
 }
 
